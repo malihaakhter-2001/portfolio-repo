@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.btn-prmry {
+
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #005FAC;
+    font-size: 20px;
+    border: 0ch;
+    padding: 20px 35px;
+}
+
+
+
+.header {
+    background-image: url(./portfolio-repo/images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 230px;
+}
+
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.banner-text {
+    padding-bottom: 30px;
+    color: #FFFFFF;
+}
+
+main {
+    max-width: 1145px;
+    margin: 0 auto;
+}
+
+/* main content styles */
+.about {
+    display: flex;
+    align-items: center;
+    margin-bottom: 132px;
+
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 50px;
+}
+
+.about-description li {
+    list-style-type: '\2713';
+    padding-bottom: 10px;
+
+}
+
+/* my Plans section */
+.plans {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.plans-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info p {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* watch section Styles */
+.watch {
+    background-image: url(../css/images/gradient1.png), url(../css/images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 70px;
+    margin-bottom: 130px;
+}
+
+.watch-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    max-width: 460px;
+
+}
+
+/* footer Styles */
+.foot {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 250px;
+}
+
+.foot-text {
+    padding-bottom: 30px;
+    color: #FFFFFF;
+    max-width: 480px;
+}
+
+.form-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+form {
+    display: block;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.foot-input {
+    color: #FFFFFF;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.foot-title {
+    margin-bottom: 20px;
+}
+
+.foot-email {
+    font-weight: 400;
+    font-size: 18px;
+    width: 325px;
+    height: 64px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    background: transparent;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
